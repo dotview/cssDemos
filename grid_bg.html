@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Grid background page</title>
+    <style type="text/css">
+    /** Basic styling */
+    
+    body {
+        color: #AFF3D0;
+        background-color: #0E1D15;
+        -webkit-text-size-adjust: 100%;
+    }
+    
+    .grid_bg {
+        position: fixed;
+        z-index: -100;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: linear-gradient(to right, #152b1f 1%, transparent 2%, transparent 99%, #152b1f 100%), linear-gradient(to bottom, #152b1f 1%, transparent 2%, transparent 99%, #152b1f 100%);
+        background-attachment: fixed;
+        background-size: 40px 40px;
+    }
+    .text{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="grid_bg"></div>
+    <div class="text">
+        This is testing grid background page
+    </div>
+</body>
+
+</html>
